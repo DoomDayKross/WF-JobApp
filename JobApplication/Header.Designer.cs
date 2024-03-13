@@ -147,7 +147,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(40, 55);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1528, 64);
+            this.panel1.Size = new System.Drawing.Size(1858, 64);
             this.panel1.TabIndex = 6;
             // 
             // panel2
@@ -155,7 +155,7 @@
             this.panel2.Controls.Add(this.menuStrip1);
             this.panel2.Location = new System.Drawing.Point(330, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1198, 49);
+            this.panel2.Size = new System.Drawing.Size(1525, 49);
             this.panel2.TabIndex = 1;
             // 
             // menuStrip1
@@ -168,7 +168,7 @@
             this.accountToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1198, 47);
+            this.menuStrip1.Size = new System.Drawing.Size(1525, 45);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -180,37 +180,37 @@
             this.jobsByCompanyToolStripMenuItem1,
             this.jobsByCityToolStripMenuItem});
             this.allJobsToolStripMenuItem.Name = "allJobsToolStripMenuItem";
-            this.allJobsToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
+            this.allJobsToolStripMenuItem.Size = new System.Drawing.Size(137, 41);
             this.allJobsToolStripMenuItem.Text = "All Jobs";
             // 
             // jobsBySkillToolStripMenuItem
             // 
             this.jobsBySkillToolStripMenuItem.Name = "jobsBySkillToolStripMenuItem";
-            this.jobsBySkillToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.jobsBySkillToolStripMenuItem.Size = new System.Drawing.Size(331, 42);
             this.jobsBySkillToolStripMenuItem.Text = "Jobs by skill";
             // 
             // jobsByTitleToolStripMenuItem1
             // 
             this.jobsByTitleToolStripMenuItem1.Name = "jobsByTitleToolStripMenuItem1";
-            this.jobsByTitleToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.jobsByTitleToolStripMenuItem1.Size = new System.Drawing.Size(331, 42);
             this.jobsByTitleToolStripMenuItem1.Text = "Jobs by title";
             // 
             // jobsByCompanyToolStripMenuItem1
             // 
             this.jobsByCompanyToolStripMenuItem1.Name = "jobsByCompanyToolStripMenuItem1";
-            this.jobsByCompanyToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.jobsByCompanyToolStripMenuItem1.Size = new System.Drawing.Size(331, 42);
             this.jobsByCompanyToolStripMenuItem1.Text = "Jobs by company";
             // 
             // jobsByCityToolStripMenuItem
             // 
             this.jobsByCityToolStripMenuItem.Name = "jobsByCityToolStripMenuItem";
-            this.jobsByCityToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.jobsByCityToolStripMenuItem.Size = new System.Drawing.Size(331, 42);
             this.jobsByCityToolStripMenuItem.Text = "Jobs by city";
             // 
             // forEmployersToolStripMenuItem
             // 
             this.forEmployersToolStripMenuItem.Name = "forEmployersToolStripMenuItem";
-            this.forEmployersToolStripMenuItem.Size = new System.Drawing.Size(117, 24);
+            this.forEmployersToolStripMenuItem.Size = new System.Drawing.Size(223, 41);
             this.forEmployersToolStripMenuItem.Text = "For Employers";
             // 
             // accountToolStripMenuItem
@@ -222,31 +222,31 @@
             this.settingsToolStripMenuItem1,
             this.signOutToolStripMenuItem1});
             this.accountToolStripMenuItem.Name = "accountToolStripMenuItem";
-            this.accountToolStripMenuItem.Size = new System.Drawing.Size(77, 24);
+            this.accountToolStripMenuItem.Size = new System.Drawing.Size(140, 41);
             this.accountToolStripMenuItem.Text = "Account";
             // 
             // profileCVsToolStripMenuItem
             // 
             this.profileCVsToolStripMenuItem.Name = "profileCVsToolStripMenuItem";
-            this.profileCVsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.profileCVsToolStripMenuItem.Size = new System.Drawing.Size(268, 42);
             this.profileCVsToolStripMenuItem.Text = "Profile & CVs";
             // 
             // myJobsToolStripMenuItem1
             // 
             this.myJobsToolStripMenuItem1.Name = "myJobsToolStripMenuItem1";
-            this.myJobsToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.myJobsToolStripMenuItem1.Size = new System.Drawing.Size(268, 42);
             this.myJobsToolStripMenuItem1.Text = "My Jobs";
             // 
             // settingsToolStripMenuItem1
             // 
             this.settingsToolStripMenuItem1.Name = "settingsToolStripMenuItem1";
-            this.settingsToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.settingsToolStripMenuItem1.Size = new System.Drawing.Size(268, 42);
             this.settingsToolStripMenuItem1.Text = "Settings";
             // 
             // signOutToolStripMenuItem1
             // 
             this.signOutToolStripMenuItem1.Name = "signOutToolStripMenuItem1";
-            this.signOutToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.signOutToolStripMenuItem1.Size = new System.Drawing.Size(268, 42);
             this.signOutToolStripMenuItem1.Text = "Sign Out";
             // 
             // Header
@@ -255,7 +255,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.Name = "Header";
-            this.Size = new System.Drawing.Size(1600, 869);
+            this.Size = new System.Drawing.Size(1920, 200);
             this.contextMenuStrip1.ResumeLayout(false);
             this.contextMenuStrip2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
