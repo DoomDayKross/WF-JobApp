@@ -49,23 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CTChiTietViecLam.cs">
+    <Compile Include="ChiTietCongViec.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CTChiTietViecLam.Designer.cs">
-      <DependentUpon>CTChiTietViecLam.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CTThongTinTaiKhoan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CTThongTinTaiKhoan.Designer.cs">
-      <DependentUpon>CTThongTinTaiKhoan.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UVThongTinTaiKhoan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UVThongTinTaiKhoan.Designer.cs">
-      <DependentUpon>UVThongTinTaiKhoan.cs</DependentUpon>
+    <Compile Include="ChiTietCongViec.Designer.cs">
+      <DependentUpon>ChiTietCongViec.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -87,12 +75,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ChiTietViecLam.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="ChiTietViecLam.Designer.cs">
-      <DependentUpon>ChiTietViecLam.cs</DependentUpon>
-    </Compile>
     <Compile Include="ThongTinTaiKhoan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -111,23 +93,8 @@
     <Compile Include="TrangChu.Designer.cs">
       <DependentUpon>TrangChu.cs</DependentUpon>
     </Compile>
-    <Compile Include="UVChiTietVietLam.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UVChiTietVietLam.Designer.cs">
-      <DependentUpon>UVChiTietVietLam.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UVTrangThaiViecLam.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UVTrangThaiViecLam.Designer.cs">
-      <DependentUpon>UVTrangThaiViecLam.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="CTChiTietViecLam.resx">
-      <DependentUpon>CTChiTietViecLam.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CTThongTinTaiKhoan.resx">
-      <DependentUpon>CTThongTinTaiKhoan.cs</DependentUpon>
+    <EmbeddedResource Include="ChiTietCongViec.resx">
+      <DependentUpon>ChiTietCongViec.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -147,9 +114,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ChiTietViecLam.resx">
-      <DependentUpon>ChiTietViecLam.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ThongTinTaiKhoan.resx">
       <DependentUpon>ThongTinTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,15 +122,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TrangChu.resx">
       <DependentUpon>TrangChu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UVChiTietVietLam.resx">
-      <DependentUpon>UVChiTietVietLam.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UVThongTinTaiKhoan.resx">
-      <DependentUpon>UVThongTinTaiKhoan.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UVTrangThaiViecLam.resx">
-      <DependentUpon>UVTrangThaiViecLam.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
