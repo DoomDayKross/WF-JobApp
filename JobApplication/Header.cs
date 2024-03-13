@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace JobApplication
+{
+    public partial class Header : UserControl
+    {
+        public Header()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            contextMenuStrip1.Show(323,14);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            contextMenuStrip1.Show(947, 14);
+        }
+    }
+}
