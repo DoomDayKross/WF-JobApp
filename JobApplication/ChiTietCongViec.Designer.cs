@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChiTietCongViec));
-            this.header1 = new JobApplication.Header();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -38,32 +37,25 @@
             this.btn_apply = new System.Windows.Forms.Button();
             this.pbxCompanyAva = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.imageListJobImage = new System.Windows.Forms.ImageList(this.components);
             this.tmrChangeImage = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.imageListJobImage2 = new System.Windows.Forms.ImageList(this.components);
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.btn_subscribe = new System.Windows.Forms.Button();
+            this.header1 = new JobApplication.Header();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCompanyAva)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // header1
-            // 
-            this.header1.Location = new System.Drawing.Point(0, 0);
-            this.header1.Name = "header1";
-            this.header1.Size = new System.Drawing.Size(1920, 126);
-            this.header1.TabIndex = 0;
             // 
             // label1
             // 
@@ -81,7 +73,7 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(3, 35);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(272, 26);
+            this.label2.Size = new System.Drawing.Size(264, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "ANDPAD VietNam Co., Ltd";
             // 
@@ -91,7 +83,7 @@
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(3, 74);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(128, 26);
+            this.label3.Size = new System.Drawing.Size(125, 25);
             this.label3.TabIndex = 3;
             this.label3.Text = "$ Negotiable";
             // 
@@ -138,6 +130,53 @@
             this.panel3.Size = new System.Drawing.Size(927, 222);
             this.panel3.TabIndex = 6;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(4, 189);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(159, 22);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Posted 8 hours ago";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(4, 158);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(66, 22);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Hybrid";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(4, 124);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(760, 22);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Da Kao Ward, District 1, Ho " +
+    "Chi Minh";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(620, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(300, 100);
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(314, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(300, 100);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // imageListJobImage
             // 
             this.imageListJobImage.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListJobImage.ImageStream")));
@@ -152,23 +191,6 @@
             this.tmrChangeImage.Interval = 1000;
             this.tmrChangeImage.Tick += new System.EventHandler(this.tmrChangeImage_Tick);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(314, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(300, 100);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(620, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(300, 100);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
             // imageListJobImage2
             // 
             this.imageListJobImage2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListJobImage2.ImageStream")));
@@ -176,47 +198,6 @@
             this.imageListJobImage2.Images.SetKeyName(0, "jun-seong-park-for-artstation.jpg");
             this.imageListJobImage2.Images.SetKeyName(1, "Biboo.png");
             this.imageListJobImage2.Images.SetKeyName(2, "F0BvAFzaYAISCCm.jpg");
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(4, 124);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(760, 22);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Da Kao Ward, District 1, Ho " +
-    "Chi Minh";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(4, 158);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(66, 22);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Hybrid";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(4, 189);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(159, 22);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Posted 8 hours ago";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(54, 567);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(930, 282);
-            this.dataGridView1.TabIndex = 7;
             // 
             // label7
             // 
@@ -248,15 +229,29 @@
             this.btn_subscribe.Text = "Subscribe";
             this.btn_subscribe.UseVisualStyleBackColor = true;
             // 
+            // header1
+            // 
+            this.header1.Location = new System.Drawing.Point(0, 0);
+            this.header1.Name = "header1";
+            this.header1.Size = new System.Drawing.Size(1920, 120);
+            this.header1.TabIndex = 0;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(54, 567);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(930, 282);
+            this.flowLayoutPanel1.TabIndex = 11;
+            // 
             // ChiTietCongViec
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1902, 1033);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.btn_subscribe);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.header1);
@@ -267,9 +262,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbxCompanyAva)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -293,9 +287,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btn_subscribe;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }

@@ -29,20 +29,29 @@
         private void InitializeComponent()
         {
             this.header1 = new JobApplication.Header();
+            this.thanhTimKiem1 = new JobApplication.ThanhTimKiem();
             this.SuspendLayout();
             // 
             // header1
             // 
             this.header1.Location = new System.Drawing.Point(1, 0);
             this.header1.Name = "header1";
-            this.header1.Size = new System.Drawing.Size(1600, 869);
+            this.header1.Size = new System.Drawing.Size(1920, 120);
             this.header1.TabIndex = 0;
+            // 
+            // thanhTimKiem1
+            // 
+            this.thanhTimKiem1.Location = new System.Drawing.Point(0, 145);
+            this.thanhTimKiem1.Name = "thanhTimKiem1";
+            this.thanhTimKiem1.Size = new System.Drawing.Size(1920, 60);
+            this.thanhTimKiem1.TabIndex = 1;
             // 
             // TinTuyenDung
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1582, 714);
+            this.Controls.Add(this.thanhTimKiem1);
             this.Controls.Add(this.header1);
             this.Name = "TinTuyenDung";
             this.ResumeLayout(false);
@@ -52,5 +61,6 @@
         #endregion
 
         private Header header1;
+        private ThanhTimKiem thanhTimKiem1;
     }
 }

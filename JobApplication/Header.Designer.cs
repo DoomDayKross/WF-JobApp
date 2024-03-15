@@ -255,7 +255,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.Name = "Header";
-            this.Size = new System.Drawing.Size(1920, 200);
+            this.Size = new System.Drawing.Size(1920, 120);
             this.contextMenuStrip1.ResumeLayout(false);
             this.contextMenuStrip2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
