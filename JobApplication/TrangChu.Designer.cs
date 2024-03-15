@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.header1 = new JobApplication.Header();
-            this.thanhTimKiem1 = new JobApplication.ThanhTimKiem();
+            this.header1 = new JobApplication.UCHeader();
+            this.thanhTimKiem1 = new JobApplication.UCThanhTimKiem();
             this.SuspendLayout();
             // 
             // header1
             // 
-            this.header1.Location = new System.Drawing.Point(0, -3);
+            this.header1.Location = new System.Drawing.Point(0, 0);
             this.header1.Name = "header1";
             this.header1.Size = new System.Drawing.Size(1920, 120);
             this.header1.TabIndex = 0;
             // 
             // thanhTimKiem1
             // 
-            this.thanhTimKiem1.Location = new System.Drawing.Point(0, 152);
+            this.thanhTimKiem1.Location = new System.Drawing.Point(0, 140);
             this.thanhTimKiem1.Name = "thanhTimKiem1";
             this.thanhTimKiem1.Size = new System.Drawing.Size(1920, 60);
             this.thanhTimKiem1.TabIndex = 1;
@@ -61,7 +61,7 @@
 
         #endregion
 
-        private Header header1;
-        private ThanhTimKiem thanhTimKiem1;
+        private UCHeader header1;
+        private UCThanhTimKiem thanhTimKiem1;
     }
 }

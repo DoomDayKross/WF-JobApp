@@ -48,7 +48,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.btn_subscribe = new System.Windows.Forms.Button();
-            this.header1 = new JobApplication.Header();
+            this.header1 = new JobApplication.UCHeader();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxCompanyAva)).BeginInit();
@@ -271,7 +271,7 @@
 
         #endregion
 
-        private Header header1;
+        private UCHeader header1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

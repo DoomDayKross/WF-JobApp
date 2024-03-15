@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace JobApplication
 {
-    public partial class TinTuyenDung : Form
+    public partial class UCThanhTimKiem : UserControl
     {
-        public TinTuyenDung()
+        public UCThanhTimKiem()
         {
             InitializeComponent();
-        }
-
-        private void TinTuyenDung_Load(object sender, EventArgs e)
-        {
-            UCBaiDang uCBaiDang = new UCBaiDang();
         }
     }
 }

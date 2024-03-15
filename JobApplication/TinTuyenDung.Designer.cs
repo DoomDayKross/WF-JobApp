@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.header1 = new JobApplication.Header();
-            this.thanhTimKiem1 = new JobApplication.ThanhTimKiem();
+            this.header1 = new JobApplication.UCHeader();
+            this.thanhTimKiem1 = new JobApplication.UCThanhTimKiem();
+            this.lblSoLuongKQ = new System.Windows.Forms.Label();
+            this.flpKetQua = new System.Windows.Forms.FlowLayoutPanel();
             this.SuspendLayout();
             // 
             // header1
@@ -41,26 +43,49 @@
             // 
             // thanhTimKiem1
             // 
-            this.thanhTimKiem1.Location = new System.Drawing.Point(0, 145);
+            this.thanhTimKiem1.Location = new System.Drawing.Point(0, 140);
             this.thanhTimKiem1.Name = "thanhTimKiem1";
             this.thanhTimKiem1.Size = new System.Drawing.Size(1920, 60);
             this.thanhTimKiem1.TabIndex = 1;
+            // 
+            // lblSoLuongKQ
+            // 
+            this.lblSoLuongKQ.AutoSize = true;
+            this.lblSoLuongKQ.Font = new System.Drawing.Font("Times New Roman", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoLuongKQ.Location = new System.Drawing.Point(750, 210);
+            this.lblSoLuongKQ.Name = "lblSoLuongKQ";
+            this.lblSoLuongKQ.Size = new System.Drawing.Size(420, 57);
+            this.lblSoLuongKQ.TabIndex = 2;
+            this.lblSoLuongKQ.Text = "There are 10 results";
+            // 
+            // flpKetQua
+            // 
+            this.flpKetQua.Location = new System.Drawing.Point(150, 300);
+            this.flpKetQua.Name = "flpKetQua";
+            this.flpKetQua.Size = new System.Drawing.Size(1620, 630);
+            this.flpKetQua.TabIndex = 3;
             // 
             // TinTuyenDung
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1582, 714);
+            this.ClientSize = new System.Drawing.Size(1902, 1033);
+            this.Controls.Add(this.flpKetQua);
+            this.Controls.Add(this.lblSoLuongKQ);
             this.Controls.Add(this.thanhTimKiem1);
             this.Controls.Add(this.header1);
             this.Name = "TinTuyenDung";
+            this.Load += new System.EventHandler(this.TinTuyenDung_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private Header header1;
-        private ThanhTimKiem thanhTimKiem1;
+        private UCHeader header1;
+        private UCThanhTimKiem thanhTimKiem1;
+        private System.Windows.Forms.Label lblSoLuongKQ;
+        private System.Windows.Forms.FlowLayoutPanel flpKetQua;
     }
 }
