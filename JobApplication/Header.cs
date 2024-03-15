@@ -16,15 +16,5 @@ namespace JobApplication
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            contextMenuStrip1.Show(323,14);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            contextMenuStrip1.Show(947, 14);
-        }
     }
 }
